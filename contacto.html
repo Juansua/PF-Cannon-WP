@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="correo, soporte, empresa, ayuda">
+    <meta name="description" content="Escríbenos y haznos saber lo que necesitas." >
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Contacto y Redes - Industrias Cannon</title>
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top">
+        <nav class="container-fluid navbar-dark">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/Logotipo Cannon sin cuadro en blanco.png" alt="logo" width="100px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav text-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="tienda.html">Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Tienda Virtual -->
+    <main>
+        <section class="mainContact">
+            <div class="contactLeft">
+                <form action="">
+
+                    <!-- <div class="formUp">
+                            <legend>Contacto</legend>
+                            <label for="nombre">Nombre: </label>
+                            <input type="text" name="nombre" id="nombre" placeholder="Jhon" required>
+                            <label for="apellido">Apellido: </label>
+                            <input type="text" name="apellido" id="apellido" placeholder="Doe" required>
+                            <label for="email">Correo: </label>
+                            <input type="email" name="email" id="email" placeholder="jhon.doe@mail.com" required>
+                            <label for="terminos">Aceptas términos y condiciones</label>
+                            <input type="checkbox" name="terminos" id="terminos" required>
+                            <label for="msj">Déjanos tu mensaje: </label>
+                            <textarea name="ms" id="msj" rows="5" placeholder="Tu texto aquí..." required></textarea>
+                        </div> -->
+                    <div class="formUp">
+                        <form action="/action_page.php">
+                            <div class="mb-3 mt-3">
+                                <label for="email" class="form-label">Correo:</label>
+                                <input type="email" class="form-control" id="email" placeholder="juan@correo.com"
+                                    name="email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="pwd" class="form-label">Asunto</label>
+                                <input type="password" class="form-control" id="pwd" placeholder="Aquí tu asunto"
+                                    name="pswd">
+                            </div>
+                            <div class="form-check mb-3">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="checkbox" name="remember"> Acepto Términos y Condiciones
+                                </label>
+                            </div>
+                            <label for="comment">Escribe lo que nos quieres contar:</label>
+                            <textarea class="form-control" rows="3" id="comment" name="text"></textarea>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>
+                    <!-- <div class="formButton">
+                        <button type="reset" id="borrar">Borrar</button>
+                        <button type="submit" id="enviar">Enviar</button>
+                    </div> -->
+
+                </form>
+            </div>
+
+            <div class="contactRight">
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="ftop">
+            <img src="img/Logotipo Cannon sin cuadro en blanco.png" alt="logo" width="100">
+            <h3>¿Tienes preguntas?</h3>
+            <p>Contáctanos a través de nuestras redes sociales</p>
+        </div>
+        <div class="fbottom">
+            <a href="https://www.facebook.com/cannoncolombia/" target="blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/cannoncolombia/?hl=es-la" target="blank"><i
+                    class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/cannoncolombia?lang=es" target="blank"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+
+    <!---------------------------------------------- scripts --->
+    <script src="https://kit.fontawesome.com/e926106730.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

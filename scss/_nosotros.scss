@@ -1,0 +1,49 @@
+.containerNosTop {
+    display: flex;
+    height: auto;
+    background-color: #84D2D6;
+    justify-content: center;
+}
+
+.secs {
+    color: #3D443C;
+    width: 30%;
+    padding: 2rem;
+
+    h2 {
+        padding: 2rem 0;
+    }
+}
+
+.secCenter {
+    text-align: center;
+
+    img {
+        border-radius: 50%;
+    }
+}
+
+.ubicacion {
+    width: 100%;
+    text-align: center;
+
+    h2 {
+        color: #3D443C;
+        margin: 2rem 0;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    .secCenter img {
+        display: none;
+    }
+
+    .secs {
+        display: grid;
+        width: 50%;
+    }
+
+    .secCenter {
+        width: 0;
+    }
+}

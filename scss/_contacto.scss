@@ -1,0 +1,82 @@
+.btn {
+    margin-top: 1rem;
+}
+
+.mainContact {
+    display: flex;
+    color: #3D443C;
+    background-color: #84D2D6;
+    width: 100%;
+    height: auto;
+    margin-top: 3%;
+}
+
+.formUp {
+    display: grid;
+    width: 70%;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+label {
+    padding-top: 10px;
+}
+
+.contactLeft {
+    float: left;
+    width: 50%;
+    margin: 2% 0 0 2%;
+}
+
+.contactRight {
+    float: right;
+    width: 50%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(img/hoteleria.jpg);
+}
+
+.formButton {
+    margin-top: 1rem;
+}
+
+input {
+    padding: 0.2rem;
+    font-size: 1rem;
+}
+
+textarea {
+    color: #464646;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.5rem;
+}
+
+button {
+    font-family: helvetica, arial;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    color: #fff;
+    background-color: #888888;
+    border: solid #acb9b9 2px;
+    transition: 0.15s ease;
+}
+
+#enviar {
+    background-color: #45898d;
+    font-weight: bold;
+    width: 10rem;
+}
+
+#enviar:hover {
+    background-color: #464646;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #808080;
+}

@@ -1,0 +1,58 @@
+.containerBlog h2 {
+    font-size: 3rem;
+}
+
+.blogTitles {
+    font-size: 2rem;
+    color: #3D443C;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.containerBlog {
+    margin-top: 2rem;
+    width: 100%;
+    height: 400px;
+    background-color: #808080;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    p {
+        transition: 0.3s ease;
+    }
+
+    p:hover {
+        transform: scale(1.05);
+    }
+}
+
+.blogLeft {
+    color: #3D443C;
+    // background-color: #84D2D6;
+    padding: 4rem 3rem;
+    order: 2;
+    height: 400px;
+
+    p {
+        margin: 1rem;
+    }
+}
+
+#blogCenter {
+    order: 2;
+}
+
+.containerBlog img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+$bgcolor: #c9f6fc;
+
+
+@for $i from 1 through 3 {
+    .blog--bgcolor#{$i} {
+        background-color: darken($bgcolor, $i * 15%);
+    }
+}

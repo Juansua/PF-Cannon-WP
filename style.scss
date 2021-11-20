@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, Sans-serif;
+}
+
+@mixin boxes ($width, $height, $bcolor) {
+    width: $width;
+    height: $height;
+    background-color: $bcolor;
+}
+
+/* ------------------------------------------------------------------------------------------- header  */
+
+header {
+    background-color: #3D443C;
+}
+
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+li {
+    list-style-type: none;
+    color: #3D443C;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/* ------------------------------------------------------------------------------------------ footer  */
+
+footer {
+    @include boxes (100%, 250px, #3D443C);
+    color: #fff;
+    margin-top: 5rem;
+    text-align: center;
+    background-image: linear-gradient(to left, #3D443C, rgb(163, 194, 197));
+}
+
+.ftop {
+    padding-top: 2rem;
+    padding-bottom: 1.2rem;
+
+    h3 {
+        margin-top: 0.5rem;
+    }
+
+    p {
+        margin-top: 0.5rem;
+    }
+}
+
+.fbottom {
+    i {
+        color: #84D2D6;
+        font-size: 1.7rem;
+        padding: 0 0.3rem;
+        transition: 0.5s ease;
+    }
+
+    i:hover {
+        color: #3D443C;
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    li {
+        margin-left: 1rem;
+    }
+
+    li:hover {
+        color: #84D2D6;
+    }
+}
+
+@import "scss/_inicio.scss";
+@import "scss/_tienda.scss";
+@import "scss/_blog.scss";
+@import "scss/_nosotros.scss";
+@import "scss/_contacto.scss";
