@@ -184,10 +184,10 @@
     }
 }
 
-$lista1: red, green, yellow;
+// $lista1: red, green, yellow;
 
-@each $color in $lista1 {
-    .sec1--bgcolor-#{$color} {
-        background-color: $color;
-    }
-}
+// @each $color in $lista1 {
+//     .sec1--bgcolor-#{$color} {
+//         background-color: $color;
+//     }
+// }

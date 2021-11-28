@@ -7,7 +7,7 @@
 
 body {
   font-family: Helvetica, Arial, Sans-serif;
-  background-color: #123;
+  background-color: #3D443C;
 }
 
 /* ------------------------------------------------------------------------------------------- header  */
@@ -294,18 +294,6 @@ footer {
   .sec1 h1 {
     font-size: 1.5rem;
   }
-}
-
-.sec1--bgcolor-red {
-  background-color: red;
-}
-
-.sec1--bgcolor-green {
-  background-color: green;
-}
-
-.sec1--bgcolor-yellow {
-  background-color: yellow;
 }
 
 .containerTienda {
