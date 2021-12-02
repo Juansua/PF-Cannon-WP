@@ -1,4 +1,4 @@
-.containerBlog h2 {
+.containerBlog h3 {
     font-size: 3rem;
 }
 
@@ -12,7 +12,7 @@
 .containerBlog {
     margin-top: 2rem;
     width: 100%;
-    height: 400px;
+    height: auto;
     background-color: #808080;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -28,14 +28,16 @@
 
 .blogLeft {
     color: #3D443C;
-    // background-color: #84D2D6;
     padding: 4rem 3rem;
     order: 2;
-    height: 400px;
-
+    
     p {
         margin: 1rem;
     }
+}
+
+.blogRight {
+    height: 30rem;
 }
 
 #blogCenter {
@@ -44,7 +46,7 @@
 
 .containerBlog img {
     width: 100%;
-    height: 400px;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -55,4 +57,20 @@ $bgcolor: #c9f6fc;
     .blog--bgcolor#{$i} {
         background-color: darken($bgcolor, $i * 15%);
     }
+}
+
+@media only screen and (max-width: 1350px) {
+    .blogRight {
+        display: none;
+    }
+
+    .containerBlog {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+
+    
 }

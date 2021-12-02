@@ -1,24 +1,25 @@
 .containerTienda {
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .texto {
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #45898d;
 }
 
 .product {
-    width: auto;
+    width: 22rem;
     margin: 25px;
     padding: 25px;
     border-radius: 1%;
     transition: 0.2s;
     box-shadow: 2px 2px 10px #b8e5ec;
 
-    h2 {
+    h4 {
         margin-bottom: 0.7rem;
         @extend .texto;
     }
@@ -33,7 +34,7 @@
     display: flex;
     justify-content: space-between;
 
-    h3 {
+    h5 {
         width: 50%;
         margin-top: 2.2rem;
         @extend .texto;

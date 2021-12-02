@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+.main-h1 {
+    text-align: center;
+    background-color: #84D2D6;
+
+    h1 {
+        font-size: 2rem;
+        padding: 1rem;
+        color: #fff;
+    }
+}
+
 body {
     font-family: Helvetica, Arial, Sans-serif;
     background-color: #3D443C;
