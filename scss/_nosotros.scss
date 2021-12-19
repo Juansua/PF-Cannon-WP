@@ -1,5 +1,6 @@
 .containerNosTop {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     height: auto;
     background-color: #84D2D6;
     justify-content: center;
@@ -7,7 +8,6 @@
 
 .secs {
     color: #3D443C;
-    width: 30%;
     padding: 2rem;
 
     h2 {
@@ -34,16 +34,18 @@
 }
 
 @media only screen and (max-width: 1350px) {
+    .secs {
+        padding: 0.2rem 2rem;
+        h2 {
+            padding-top: 2rem;
+        }
+    }
+
+    .containerNosTop {
+        display: block;
+    }
+
     .secCenter img {
         display: none;
-    }
-
-    .secs {
-        display: grid;
-        width: 50%;
-    }
-
-    .secCenter {
-        width: 0;
     }
 }
